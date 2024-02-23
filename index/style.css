@@ -6,7 +6,7 @@ body{
 
 .div-welkie{
     height: 20vh;
-    /* width: 100%; */
+    width: 100%;
     background-color: aqua;
     display: flex;
     position: fixed;
