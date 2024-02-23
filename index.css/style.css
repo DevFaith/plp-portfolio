@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-welkie{
+    height: 20vh;
+    /* width: 100%; */
+    background-color: aqua;
+    display: flex;
+    position: fixed;
+}
+.div-welcome{
+    height: 100%;
+    width: 20%;
+    /* background-color: black; */
+    margin: 18px;
+    padding: 0;
+}
+
+.div-welcome h1{
+    margin: 30px;
+    font-size: 25px;
+    padding: 0;
+}
+
+.div-welcome h1:hover{
+    color: red;
+}
+.div-ul{
+    height: 100%;
+    width: 50%;
+
+}
+.li-carrier{
+    display: flex;
+    font-size: 21px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 40px;
+    padding: 0;
+}
+
+.div-button{
+    height: 100%;
+    width: 20%;
+    margin: 40px;
+    padding: 0;
+}
+
+.div-button button{
+    height: 30%;
+    width: 40%;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    font-size: 20px;
+
+}
+.div-button button:hover{
+    color: white;
+}
+
+.div-main{
+    height: 100vh;
+    width: 100%;
+    background-color: cadetblue;
+    /* position: absolute; */
+}
+
+.div-home{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.div-home h1{
+    font-size: 48px;
+    color: chartreuse;
+}
+
+.div-images{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    /* margin: 20px; */
+    justify-content: space-between;
+}
+
+.div-img1{
+    height: 100%;
+    width: 30%;
+    /* margin: 20px; */
+    
+}
+
+.div-imga{
+    height: 50%;
+    width: 100%;
+    background-image: url(/images/pexels-anete-lusina-4793250.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    
+}
+
+.div-imgb{
+    height: 50%;
+    width: 100%;
+    background-image: url(/images/pexels-cottonbro-studio-6230156.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.div-img2{
+    height: 100%;
+    width: 30%;
+    background-image: url(/images/pexels-robin-1020372.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.div-img3{
+    height: 100%;
+    width: 30%;
+}
+
+.div-imge{
+    height: 50%;
+    width: 100%;
+    background-image: url(/images//pexels-tima-miroshnichenko-7202784.jpg);
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.div-imgf{
+    height: 50%;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(/images/pexels-tobi-674268.jpg);
+    background-size: cover;
+}
+
+.page-3{
+    height: 90vh;
+    width: 100%;
+    background-color:darkcyan;
+    /* display: flex; */
+}
+
+.div-about{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-about h1{
+    font-size: 40px;
+}
+
+.div-carrier2{
+    height: 60%; 
+    width: 100%;
+    display: flex;
+}
+
+.div-comment{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 0;
+}
+
+.div-comment h2{
+    color: white;
+}
+
+.div-pic{
+    height: 150%;
+    width: 30%;
+    background-image: url(/images/pexels-nastasya-banana-15300927.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.div-comment2{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 0;
+}
+.div-comment2 h2{
+    font-size: 30px;
+    color: brown;
+}
+
+.div-4{
+    height: 50vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.div-project{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 20%;
+    width: 100%;
+}
+.div-icon i{
+    height: 20%;
+    width: 100%;
+    font-size: 37px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
